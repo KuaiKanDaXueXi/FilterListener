@@ -1,0 +1,14 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <!--
+    配置监听器
+  -->
+<!--  <listener>-->
+<!--    <listener-class>com.xian.listener.ListenerDemo1</listener-class>-->
+<!--  </listener>-->
+  <!--指定初始化参数信息-->
+  <context-param>
+    <param-name>xxx</param-name>
+    <param-value>/WEB-INF/classes/xxx.xml</param-value>
+  </context-param>
+</web-app>
